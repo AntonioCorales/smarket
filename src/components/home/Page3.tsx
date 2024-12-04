@@ -27,13 +27,13 @@ export default function Page3() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <div className="relative w-64 h-48 mx-auto mb-6">
+            <div className="relative w-64 h-48 mx-auto mb-4">
               <Image
-                src="/e13a53131e.jpg"
+                src="/images/7.webp"
                 alt="Persona escribiendo en un laptop mostrando contenido educativo"
                 width={256}
-                height={256}
-                className="object-cover rounded-[40%_60%_70%_30%/30%_30%_70%_70%]"
+                height={300}
+                className="object-cover rounded-[40%_60%_70%_30%/30%_30%_70%_70%] shadow-lg shadow-gray-400/40"
               />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Promociona</h3>
@@ -46,13 +46,13 @@ export default function Page3() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <div className="relative  w-64 h-48 mx-auto mb-6">
+            <div className="relative w-64 h-48 mx-auto mb-4">
               <Image
-                src="/89e04bf696.jpg"
+                src="/images/8.webp"
                 alt="Ambiente de enseñanza con estudiantes y profesor"
                 width={256}
                 height={256}
-                className="object-cover rounded-[70%_30%_30%_70%/60%_40%_60%_40%]"
+                className="object-cover rounded-[90%_60%_70%_70%/80%_90%_70%_60%] shadow-lg shadow-gray-400/40"
               />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Vende</h3>
@@ -65,13 +65,13 @@ export default function Page3() {
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
           >
-            <div className="relative w-64 h-48 mx-auto mb-6">
+            <div className="relative w-64 h-48 mx-auto mb-4">
               <Image
-                src="/8f0991cb04.jpg"
+                src="/images/9.webp"
                 alt="Dashboard de gestión de activos educativos"
                 width={256}
                 height={256}
-                className="object-cover rounded-[40%_60%_30%_70%/30%_60%_70%_40%]"
+                className="object-cover rounded-[70%_30%_30%_70%/60%_40%_60%_40%] shadow-lg shadow-gray-400/40"
               />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Gestiona</h3>

@@ -48,10 +48,10 @@ export default function Footer() {
         
         <div className="relative aspect-square md:aspect-auto">
           <Image
-            src="/e13a53131e.jpg"
+            src="/images/6.webp"
             alt="Industrial workers in safety gear"
-            width={400}
-            height={400}
+            width={700}
+            height={700}
             className="rounded-xl object-cover object-center h-full w-full"
           />
         </div>

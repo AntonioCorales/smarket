@@ -37,11 +37,11 @@ export default function Page1() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 to-transparent lg:hidden" />
             <Image 
-              src="/4063d01cd6.jpg"
+              src="/images/1.webp"
               alt="Smarket"
               width={800}
               height={600}
-              className="object-cover object-center rounded-md"
+              className="object-cover object-center rounded-xl shadow-lg shadow-gray-400/40"
             />
           </div>
         </div>

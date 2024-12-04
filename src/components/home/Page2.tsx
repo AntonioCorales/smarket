@@ -19,11 +19,11 @@ export default function Page2() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
               <Image
-                src="/e13a53131e.jpg"
+                src="/images/2.webp"
                 alt="Ilustración de dos personas trabajando con engranajes y una bombilla"
                 width={500}
                 height={400}
-                className="w-full h-auto"
+                className="w-full h-auto shadow-xl shadow-blue-400/40"
               />
             </div>
             
@@ -36,7 +36,7 @@ export default function Page2() {
               
               <div className="flex justify-center md:justify-start">
                 <button 
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-md"
                 >
                   COMIENZA A CREAR
                 </button>

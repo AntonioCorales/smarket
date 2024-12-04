@@ -19,69 +19,55 @@ export default function Page5() {
           </div>
 
           {/* Illustration */}
-          <div className="relative">
-            <div className="relative w-full aspect-[4/3]">
-              <div className="absolute inset-0 bg-[#F8F9FE] rounded-lg">
-                <div className="relative h-full">
+          <div className="relative w-full flex justify-center overflow-hidden items-center shadow-lg rounded-xl shadow-sky-500/50 ring-1 ring-inset ring-sky-500/10 backdrop-blur-sm">
+            <Image
+              src="/images/3.webp"
+              alt="Ilustración de persona trabajando"
+              className="object-contain w-full"
+              width={1000}
+              height={1000}
+            />
+            <div className="absolute top-4 right-4 w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+              <svg
+                className="w-5 h-5 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+            <div className="absolute bottom-4 right-4 w-16 h-16 bg-blue-600 rounded flex items-center justify-center">
+              <svg
+                className="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
+                />
+              </svg>
+            </div>
 
-                <div className="relative w-full h-full flex justify-center items-center">
-                    <Image
-                      src="/89e04bf696.jpg"
-                      alt="Ilustración de persona trabajando"
-                      className="object-contain"
-                      width={600}
-                      height={600}
-                    />
-                  </div>
-                  {/* Charts and UI elements */}
-                  <div className="absolute top-4 right-4 w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
-                    <svg
-                      className="w-5 h-5 text-white"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M4 6h16M4 12h16m-7 6h7"
-                      />
-                    </svg>
-                  </div>
-                  <div className="absolute bottom-4 right-4 w-16 h-16 bg-blue-600 rounded flex items-center justify-center">
-                    <svg
-                      className="w-8 h-8 text-white"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
-                      />
-                    </svg>
-                  </div>
-
-                  {/* Character illustration */}
-                 
-
-                  {/* Plant decoration */}
-                  <div className="absolute bottom-4 left-4">
-                    <div className="w-12 h-16 bg-[#7BC496] rounded-t-full" />
-                  </div>
-                </div>
-              </div>
+            <div className="absolute bottom-4 left-4">
+              <div className="w-12 h-16 bg-[#7BC496] rounded-t-full" />
             </div>
           </div>
         </div>

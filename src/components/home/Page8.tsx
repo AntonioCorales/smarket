@@ -12,10 +12,10 @@ export default function Page8() {
       <div className="container mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-4 py-12">
         <div className="relative mb-12 w-full max-w-2xl">
           <Image
-            src="/89e04bf696.jpg"
+            src="/images/5.webp"
             alt="Ilustración de gestión del tiempo"
-            width={500}
-            height={300}
+            width={600}
+            height={400}
             className="mx-auto rounded-lg"
             priority
           />
