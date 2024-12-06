@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page8() {
   return (
@@ -21,15 +22,18 @@ export default function Page8() {
           />
         </div>
 
-        <div className="text-center">
+        <div className="text-center flex flex-col gap-2 justify-center items-center">
           <h1 className="mb-6 max-w-3xl text-3xl font-bold tracking-tight text-[#1e3a8a] sm:text-4xl md:text-5xl">
             Tu conocimiento puede ser la clave para que alguien comprenda y
             avance. ¡Comparte tu expertise!
           </h1>
 
-          <button className="bg-[#4a77ca] px-8 py-6 text-lg font-semibold hover:bg-[#3d63a8] rounded-lg">
+          <Link
+            href="/login"
+            className="bg-[#4a77ca] px-8 py-6 text-lg font-semibold hover:bg-[#3d63a8] rounded-lg text-white w-fit"
+          >
             COMIENZA A CREAR
-          </button>
+          </Link>
         </div>
       </div>
     </section>

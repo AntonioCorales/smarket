@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page1() {
   return (
@@ -10,10 +11,10 @@ export default function Page1() {
 
       <main className="container mx-auto px-4 py-16 relative my-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-end">
-          <div className="space-y-8">
+          <div className="flex flex-col gap-4">
             <div className="w-48">
               <Image 
-                src="/logo-smarket.png"
+                src="/logo-smarket.webp"
                 alt="Smarket"
                 width={800}
                 height={600}
@@ -21,16 +22,17 @@ export default function Page1() {
               />
             </div>
             
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight ">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
               Smarket permite vender tu contenido educativo, crear promociones y gestionar fácilmente, todo en un solo lugar
             </h1>
             
             {/* CTA Button */}
-            <button 
-              className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-5 text-lg rounded-md"
+            <Link 
+              href="/login"
+              className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-5 text-lg rounded-md w-fit"
             >
               COMIENZA A CREAR
-            </button>
+            </Link>
           </div>
           
           {/* Hero Image */}

@@ -11,11 +11,14 @@ export default function Page5() {
       <div className="container mx-auto px-4">
         <div className="grid gap-8 lg:grid-cols-2 items-center">
           {/* Text content */}
-          <div className="max-w-2xl">
-            <h1 className="text-[#2F4E43] text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
+          <div className="max-w-2xl flex flex-col gap-4">
+            <h1 className="text-green-600 text-3xl lg:text-5xl">
+            Lleva tus habilidades al siguiente nivel 
+            </h1>
+            <p className="text-[#2F4E43] text-xl lg:text-2xl  font-semibold leading-tight">
               Aprende, monetiza, promociona, gestiona y haz crecer tu comunidad,
               todo en una sola plataforma.
-            </h1>
+            </p>
           </div>
 
           {/* Illustration */}
